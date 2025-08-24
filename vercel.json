@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "build": {
+    "env": {
+      "VITE_OPENROUTER_API_KEY": "@vite_openrouter_api_key",
+      "VITE_GROQ_API_KEY": "@vite_groq_api_key"
+    }
+  }
+}
